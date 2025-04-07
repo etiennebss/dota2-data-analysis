@@ -91,9 +91,10 @@ python3 src/nom_du_fichier.py
 
 ## 📊 Visualisations
 
-Des outils de visualisation avec **Matplotlib** sont inclus dans les scripts `display*.py` pour observer :
+Des outils de visualisation très basiques réalisés avec **Matplotlib** sont inclus dans les scripts `display*.py` pour observer :
 - Les trajectoires originales vs. segmentées
 - Les clusters générés
 - Les motifs extraits par PrefixSpan
 
 
+---
