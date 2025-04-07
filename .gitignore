@@ -1,0 +1,21 @@
+# Ignore les fichiers pycache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore les environnements virtuels
+venv/
+.env/
+.venv/
+
+# Ignore d'éventuels fichiers temporaires
+*.log
+*.bak
+*.tmp
+
+# Ignore les fichiers de couverture de tests
+.coverage
+*.cover
+
+# Ignore les fichiers de configuration VSCode
+.vscode/
