@@ -1,4 +1,4 @@
-# 🧠 Analyse de données de trajectoires dans Dota 2
+# Analyse de données de trajectoires dans Dota 2
 
 Projet réalisé dans le cadre de la Licence 3 Informatique à l’Université de Caen.
 
@@ -7,13 +7,13 @@ Projet réalisé dans le cadre de la Licence 3 Informatique à l’Université d
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Ce projet a pour but d’analyser les trajectoires des héros dans une partie de **Dota 2**. À partir de données brutes issues de plusieurs parties, nous appliquons une série d’étapes de traitement, d’extraction de patterns et de clustering pour mieux comprendre les comportements des joueurs.
 
 ---
 
-## 🧰 Technologies & Librairies
+## Technologies & Librairies
 
 - Python 3
 - `numpy`
@@ -23,32 +23,26 @@ Ce projet a pour but d’analyser les trajectoires des héros dans une partie de
 
 ---
 
-## 🛠️ Sur les machines de l'université
+## Fonctionnalités principales
 
-Avant de lancer le projet sur les machines de l’université:
-
-pip install pandas==1.5.3  
-pip install prefixSpan
-
-⚠️ Attention : Il est important de préciser la version de `pandas` pour éviter tout problème de compatibilité avec `numpy` ou `matplotlib`
+- **Normalisation** des trajectoires à partir des coordonnées brutes.
+- **Segmentation** des trajectoires via l'approche **MDL**.
+- **Clustering** des segments avec **KMeans**
+- **Détection de motifs** comportementaux avec **PrefixSpan**.
 
 ---
 
-## 🚀 Lancement du projet
+## Visualisation
 
-Tous les fichiers exécutables se trouvent dans le dossier `src`, lancez les depuis la *racine du projet*.
+Des outils de visualisation très basiques réalisés avec **Matplotlib** sont inclus dans les scripts `display*.py` pour observer :
+- Les trajectoires originales vs. segmentées
+- Les clusters générés
+- Les motifs extraits par PrefixSpan
 
-### Lancer l’interface principale :
-
-python3 src/main.py
-
-### Exécuter un fichier spécifique :
-
-python3 src/nom_du_fichier.py
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ### `data/`
 - `raw/` :  
@@ -80,21 +74,27 @@ python3 src/nom_du_fichier.py
 
 ---
 
-## 🔍 Fonctionnalités principales
+## Sur les machines de l'université
 
-- **Normalisation** des trajectoires à partir des coordonnées brutes.
-- **Segmentation** des trajectoires via l'approche **MDL**.
-- **Clustering** des segments avec **KMeans**
-- **Détection de motifs** comportementaux avec **PrefixSpan**.
+Avant de lancer le projet sur les machines de l’université:
+
+pip install pandas==1.5.3  
+pip install prefixSpan
+
+⚠️ Attention : Il est important de préciser la version de `pandas` pour éviter tout problème de compatibilité avec `numpy` ou `matplotlib`
 
 ---
 
-## 📊 Visualisations
+## Lancement du projet
 
-Des outils de visualisation très basiques réalisés avec **Matplotlib** sont inclus dans les scripts `display*.py` pour observer :
-- Les trajectoires originales vs. segmentées
-- Les clusters générés
-- Les motifs extraits par PrefixSpan
+Tous les fichiers exécutables se trouvent dans le dossier `src`, lancez les depuis la *racine du projet*.
 
+### Lancer l’interface principale :
+
+python3 src/main.py
+
+### Exécuter un fichier spécifique :
+
+python3 src/nom_du_fichier.py
 
 ---
