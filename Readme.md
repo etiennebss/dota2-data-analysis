@@ -3,7 +3,7 @@
 Projet réalisé dans le cadre de la Licence 3 Informatique à l’Université de Caen.
 
 **Auteurs :**  
-@etiennebss , @Lebonvieuxjack, @DoguetThomas et Romain Moalic
+@etiennebss , @alexandrefaupoint, @DoguetThomas et Romain Moalic
 
 ---
 
